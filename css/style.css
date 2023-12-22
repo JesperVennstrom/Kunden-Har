@@ -3,7 +3,6 @@
     scroll-behavior: smooth;
  /*  Index CSS code  */
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Montserrat:wght@500&display=swap');
 body {
     margin: 0;
     background: rgb(33,150,243);
@@ -11,7 +10,6 @@ body {
 }
 #main_wrapper {
     height: 100vh;
-    width: calc(100vw-20px);
     display: grid;
     grid-template-rows: 10% 90% 10% 90% 90% 10%;
     grid-template-columns: 1fr 1fr 1fr;
@@ -51,6 +49,12 @@ nav {
     align-items:flex-end;
     justify-content: flex-end;
     z-index: 1000;
+}
+nav a{
+    height: 100%;
+}
+.nav_pics {
+    height: 100%;
 }
 #button {
     display: flex;
@@ -275,7 +279,6 @@ padding-bottom: 4px;
 /* Profile CSS code */
 #profile_wrapper {
     height: 100vh;
-    width: calc(100vw-20px);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 20% 10% 240% 7.5% 10%;
